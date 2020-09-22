@@ -1,8 +1,37 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function yell(greeting){
+return greeting + '!';
+}
 
+function getFirstCharacter(firstLetter){
+return firstLetter[0];
+}
 
+function getLastCharacter(lastLetter){
+return lastLetter[lastLetter.length -1]; 
+}
+
+function getOneCharacter(str, num){
+return str[num];
+}
+
+function getTwoCharacters(str, num1, num2){
+return str[num1, num2];
+}
+
+function makeCapitalized(str){
+return str.toUpperCase();
+}
+
+function yellLouder(str){
+return str.toUpperCase() + '!!!';
+}
+
+function getInitials(str){
+return str.split(" ")[0];
+}
 
 
 
