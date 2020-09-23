@@ -18,7 +18,7 @@ return str[num];
 }
 
 function getTwoCharacters(str, num1, num2){
-return str[num1, num2];
+return str[num1] + str[num2];
 }
 
 function makeCapitalized(str){
@@ -30,7 +30,7 @@ return str.toUpperCase() + '!!!';
 }
 
 function getInitials(str){
-return str.split("");
+return str[0] + '.' + str[str.indexOf(' ') + 1] + '.';
 }
 
 
