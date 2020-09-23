@@ -30,7 +30,7 @@ return str.toUpperCase() + '!!!';
 }
 
 function getInitials(str){
-return str.split(" ")[0];
+return str.split("");
 }
 
 
